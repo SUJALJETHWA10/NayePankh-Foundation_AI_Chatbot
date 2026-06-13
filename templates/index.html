@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NayePankh Foundation – AI FAQ Assistant</title>
+  <meta name="description" content="Voice-enabled AI assistant for NayePankh Foundation." />
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+  <header class="header">
+    <div class="brand">
+      <div class="logo">🕊️</div>
+      <div>
+        <h1>NayePankh Foundation</h1>
+        <p class="subtitle">AI FAQ Assistant · with voice</p>
+      </div>
+    </div>
+    <button id="voiceToggle" class="voice-btn" aria-pressed="true">
+      <span id="voiceIcon">🔊</span> <span id="voiceLabel">Voice on</span>
+    </button>
+  </header>
+
+  <main id="chat" class="chat">
+    <div id="welcome" class="welcome">
+      <div class="welcome-icon">🕊️</div>
+      <h2>Namaste 🙏 How can I help?</h2>
+      <p>Ask anything about NayePankh Foundation — programs, donations, or how to get involved.</p>
+      <div class="suggestions">
+        <button class="chip">What does NayePankh Foundation do?</button>
+        <button class="chip">How can I donate?</button>
+        <button class="chip">How do I volunteer?</button>
+        <button class="chip">Is my donation tax-deductible?</button>
+      </div>
+    </div>
+  </main>
+
+  <footer class="composer">
+    <form id="chatForm">
+      <textarea id="input" rows="1" placeholder="Ask about NayePankh Foundation…" required></textarea>
+      <button type="submit" id="sendBtn" aria-label="Send">➤</button>
+    </form>
+  </footer>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
