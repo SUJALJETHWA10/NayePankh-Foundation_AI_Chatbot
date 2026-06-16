@@ -38,7 +38,7 @@ The chatbot uses **Groq LLM (LLaMA 3)** for intelligent responses and is built w
 
 ## 🛠️ Tech Stack
 
-- **Python 3.10**
+- **Python 3.14**
 - Flask
 - Groq API
 - HTML
@@ -52,7 +52,7 @@ The chatbot uses **Groq LLM (LLaMA 3)** for intelligent responses and is built w
 Recommended Python Version:
 
 ```text
-Python 3.10.x
+Python 3.14.x
 ```
 
 Check version:
