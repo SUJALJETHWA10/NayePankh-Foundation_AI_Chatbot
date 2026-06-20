@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/a33e6b58-8a44-46ed-b76f-20a95f505e2c
+
 # 🌱 NayePankh Foundation – AI FAQ Chatbot
 
 An **AI-powered FAQ Chatbot** built for **NayePankh Foundation** to help users learn about the NGO, volunteering, internships, donations, and community programs.
